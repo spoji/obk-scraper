@@ -1,2 +1,7 @@
 # obk-scraper
-A very simply nodejs application that warns you when there is a price drop on www.ontariobeerkegs.com
+A price monitoring tool for ontariobeerkegs.com
+
+Usage:
+ - Modify the values inside config.json
+ - run 'npm install'
+ - run 'node scraper.js'

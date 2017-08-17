@@ -1,0 +1,10 @@
+{
+    "urls" : [
+        "https://www.ontariobeerkegs.com/2_Row_Malt_p/malt-1lb-2row.htm",
+        "https://www.ontariobeerkegs.com/German_Brewer_s_Gold_Hop_Pellets_1_LB_p/hops-1lb-brewers-gold-ger.htm"
+    ],
+    "email_from": "no-reply@yourdomain.com",
+    "email_to": "youremail@yourdomain.com, youremail2@yourdomain.com",
+    "email_subject": "Price change!",
+    "interval_checkup_hours": 24
+}
