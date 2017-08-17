@@ -5,8 +5,8 @@
 const cheerio = require("cheerio");
 const fetch = require("node-fetch");
 const fs = require("fs");
-const sendmail = require("sendmail")({ silent: true });
 
+var sendmail;
 var config;
 
 if (initConfig()) {
@@ -44,6 +44,13 @@ function initConfig() {
         console.log("config.json : email_to is not valid");
         return false;
     }
+
+    if (!config.email_settings) {
+        console.log("config.json : email_settings is not valid");
+        return false;
+    }
+
+    sendmail = require("sendmail")(config.email_settings);
 
     return true;
 }

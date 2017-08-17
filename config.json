@@ -6,5 +6,8 @@
     "email_from": "no-reply@yourdomain.com",
     "email_to": "youremail@yourdomain.com, youremail2@yourdomain.com",
     "email_subject": "Price change!",
+    "email_settings": { 
+        "silent": true
+    },
     "interval_checkup_hours": 24
 }

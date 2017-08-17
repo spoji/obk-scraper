@@ -1,6 +1,6 @@
 {
   "name": "obk-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A price monitoring tool for ontariobeerkegs.com",
   "main": "scraper.js",
   "author": "Sylvain Giroux",
@@ -8,7 +8,7 @@
   "dependencies": {
     "cheerio": "latest",
     "node-fetch": "latest",
-    "sendmail": "^1.2.0"
+    "sendmail": "latest"
   },
   "repository": {
     "type": "git",
